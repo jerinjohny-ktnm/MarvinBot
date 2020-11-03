@@ -75,7 +75,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/636290f4a3788371eec0b.jpg"
+    img = "https://telegra.ph/file/69b95b506450d9560ae40.jpg"
 else:
   img = START_IMG    
     
