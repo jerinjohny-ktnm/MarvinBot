@@ -28,8 +28,11 @@ from cinderella.modules.connection import connect_button
 
 PM_START_TEXT = """
 _Hello_ *{}*
-_I am_ *{}*\n_A Telegram manager bot lots of cool modules, Contact [Him](http://t.me/williamshelperbot) if i am dead😑!!_
+_I am_ *{}*\n_A Telegram manager bot lots of cool modules!!_
+---->Contact [Him](https://t.me/williamshelperbot) if i am dead😑.
 _Maintained by_ [{}](tg://user?id={})
+
+*Version = 19.0*
 """
 
 
