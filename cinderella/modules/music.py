@@ -76,11 +76,10 @@ It will be up soon.""")
 __help__ = """ Youtube audio Downloader
  - /music <Youtube link> : Bot can download audio file from youtube link.
  
-⚠️That api we are using to download music, is down for weeks...
-It will be up soon.
+⚠️Currently not working, sorry for the inconvenience.
 
 """
-__mod_name__ = "MP3 DOWNLOADER" 
+__mod_name__ = "MP3 Downloader" 
 
 music_handler = CommandHandler('music', music, pass_args=True)
 dispatcher.add_handler(music_handler)
