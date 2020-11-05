@@ -83,7 +83,7 @@ __help__ = """
  - /weather <city>: gets weather info in a particular place using openweathermap.org api
 """
 
-__mod_name__ = "WEATHER"
+__mod_name__ = "Weather"
 
 WEATHER_HANDLER = DisableAbleCommandHandler("weather", weather, pass_args=True)
 
