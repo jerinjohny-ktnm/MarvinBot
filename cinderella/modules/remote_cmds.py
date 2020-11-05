@@ -434,7 +434,7 @@ __help__ ="""
 - /runmute
 """
 
-__mod_name__ = "REMOTE COMMANDS"
+__mod_name__ = "Remote Commands"
 
 RBAN_HANDLER = CommandHandler("rban", rban, pass_args=True, filters=CustomFilters.sudo_filter)
 RUNBAN_HANDLER = CommandHandler("runban", runban, pass_args=True, filters=CustomFilters.sudo_filter)
