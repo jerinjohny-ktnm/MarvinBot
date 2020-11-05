@@ -16,10 +16,10 @@ def feedback(bot: Bot, update: Update):
   text = message.text[len('/feedback '):]
    
 
-  feed_text = f"Cinderella's *New* feedback from [{name}](tg://user?id={userid})\n\nfeed: {text}"
+  feed_text = f"Mikasa's *New* feedback from [{name}](tg://user?id={userid})\n\nfeed: {text}"
   
 
-  bot.send_message(-1001199155295, feed_text, parse_mode=ParseMode.MARKDOWN)
+  bot.send_message(-1001371961191, feed_text, parse_mode=ParseMode.MARKDOWN)
  
   text = html.escape(text)
   reply_text=f"Thankyou for giving us your feedback."
@@ -37,7 +37,7 @@ __help__ = """
                can can see your feeds here.
 """
 
-__mod_name__ = "FEEDBACK"
+__mod_name__ = "Feedback"
 
 feed_handle = DisableAbleCommandHandler("feedback", feedback)
 
