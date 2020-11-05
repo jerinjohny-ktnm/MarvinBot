@@ -24,7 +24,7 @@ def feedback(bot: Bot, update: Update):
   text = html.escape(text)
   reply_text=f"Thankyou for giving us your feedback."
   message.reply_text(reply_text, reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="You can see your feedback here",url="https://t.me/Sur_vivor")]]))
+                                                [[InlineKeyboardButton(text="You can see your feedback here",url="https://t.me/imjerin7")]]))
                                                
   
 
