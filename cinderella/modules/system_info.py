@@ -116,6 +116,6 @@ dispatcher.add_handler(SPEED_TEST_HANDLER)
 dispatcher.add_handler(SPEED_TEST_CALLBACKHANDLER)
 dispatcher.add_handler(STATUS_HANDLER)
 
-__mod_name__ = "SYSTEM INFO"
+__mod_name__ = "System Info"
 __command_list__ = ["speedtest"]
 __handlers__ = [SPEED_TEST_HANDLER, SPEED_TEST_CALLBACKHANDLER]
