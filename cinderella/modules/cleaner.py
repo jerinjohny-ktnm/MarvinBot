@@ -8,7 +8,7 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from cinderella import ALLOW_EXCL, dispatcher, CustomCommandHandler
 from cinderella.modules.disable import DisableAbleCommandHandler
 from cinderella.modules.helper_funcs.chat_status import user_admin, bot_can_delete, dev_plus, connection_status
-from cinderalla.modules.sql import cleaner_sql as sql
+from cinderella.modules.sql import cleaner_sql as sql
 
 if ALLOW_EXCL:
     CMD_STARTERS = ('/', '!')
