@@ -29,8 +29,10 @@ Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.co
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jerinjohny-ktnm/Mikasa.git)
 
 </details>
+<details>
+  <summary>Steps to self Host!! </summary>
 
-### Configuration
+  ### Configuration
 
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
